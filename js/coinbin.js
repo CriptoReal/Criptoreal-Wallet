@@ -2,9 +2,9 @@ $(document).ready(function() {
 
 	/* open wallet code */
 
-	var explorer_tx = "https://explorer.criptoreal.org/tx/"
-	var explorer_addr = "https://explorer.criptoreal.org/address/"
-	var explorer_block = "https://explorer.criptoreal.org/block/"
+	var explorer_tx = "https://criptoreal.info/tx/"
+	var explorer_addr = "https://criptoreal.info/address/"
+	var explorer_block = "https://criptoreal.info/block/"
 
 	$("#openBtn").click(function(){
 		var email = $("#openEmail").val().toLowerCase();
